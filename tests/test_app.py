@@ -1,9 +1,9 @@
 from myapp.app import add, subtract
 
 def test_add():
-    """Tests the addition function."""
     assert add(2, 3) == 5
+    assert add(-1, 1) == 0
 
 def test_subtract():
-    """Tests the subtraction function."""
     assert subtract(5, 3) == 2
+    assert subtract(10, 15) == -5
